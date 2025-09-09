@@ -8,6 +8,9 @@ SQLAlchemy
 # MySQL Database Driver
 PyMySQL
 
+# Required for MySQL Caching SHA-2 authentication
+cryptography
+
 # OpenAI API Client
 openai
 
