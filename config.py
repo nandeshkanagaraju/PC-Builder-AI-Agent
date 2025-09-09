@@ -6,7 +6,7 @@ load_dotenv() # Load environment variables from .env file
 class Config:
     DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://user:password@localhost:5432/pc_agent_db")
     OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-    EMAIL_HOST = os.getenv("EMAIL_HOST")
+    EMAIL_HOST = os.getenv("EMAIL_HOST", "smtp.gmail.com")
     EMAIL_PORT = int(os.getenv("EMAIL_PORT", 587))
     EMAIL_USER = os.getenv("EMAIL_USER")
     EMAIL_PASSWORD = os.getenv("EMAIL_PASSWORD")
