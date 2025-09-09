@@ -1,0 +1,19 @@
+# Primary Web Framework
+Flask
+Flask-Cors
+
+# Database ORM
+SQLAlchemy
+
+# MySQL Database Driver
+PyMySQL
+
+# OpenAI API Client
+openai
+
+# Environment Variable Management
+python-dotenv
+
+# Web Scraping
+beautifulsoup4
+requests
